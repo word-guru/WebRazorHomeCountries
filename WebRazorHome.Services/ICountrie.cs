@@ -7,7 +7,7 @@ using WebRazorHome.Models;
 
 namespace WebRazorHome.Services
 {
-    //IRepozitoryPatorn
+    //Паттерн "Репозиторий"
     public interface ICountrie 
     {
         IEnumerable<Countrie> GetCountrie();
